@@ -3,4 +3,33 @@
 Welcome
 {% endblock %}
 {% block content %}
+<style>
+    .course {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        display: inline-block;
+        width: 250px;
+        text-align: center;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+<h1>Available Courses</h1>
+<div>
+    <div class="course">
+        <img alt="">
+        <h3>Python for Beginners</h3>
+        <p>Learn Python from scratch</p>
+        <p>Price: 50$</p>
+    </div>
+    <div class="course">
+        <img alt="">
+        <h3>Flask Web Development Course</h3>
+        <p>Learn Web Development in Python using Flask framework</p>
+        <p>Price: 50$</p>
+    </div>
+</div>
 {% endblock %}
